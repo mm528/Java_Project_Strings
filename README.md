@@ -1,4 +1,4 @@
-# Java_Project_Strings
+# Java Regular Expressions (REgex)
 ## * *A small exercise of a Java project for Strings
 
 ## A given exercise may take a junior software developer exam in a Java document.  
