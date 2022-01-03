@@ -7,7 +7,9 @@ public class RegEx_Strings {
 	public static void main(String[] args) {
 		String character = "M";
 		String characeter2 = "N";
-		String name = "NikoLMa! sacasc ichMALIS";
+		String name = "TesTMichalisNike";
+		
+		
 		String name2 = groupingM(character, name);// Send the N
 		groupingN(characeter2, name2);
 
@@ -59,6 +61,7 @@ public class RegEx_Strings {
 
 		while (matcher.find()) {
 			getNum.add(matcher.start());
+			System.out.println(matcher.start());
 			
 
 		}
@@ -69,9 +72,11 @@ public class RegEx_Strings {
 			for (int j = 0; j < 2; j++) {
 				if (getNum.get(i) >= 0) {
 					if (!(getNum.get(i).intValue() + j > newWord.length()))
-						if (!((getNum.get(i).intValue() + j) != 0)) {
+						if (((getNum.get(i).intValue() + j) != 0)) {
 							
 							newWord.deleteCharAt(getNum.get(i).intValue());
+						}else {
+							newWord.deleteCharAt(getNum.get(i).intValue()+j);
 						}
 				}
 
