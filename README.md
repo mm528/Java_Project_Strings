@@ -10,11 +10,11 @@
 ##if a string is given such as: StartMopNoeEnD whereas the char is a capital M the previous 
 ##2 texts needs to increase by and wherenever is N then the next 2 char needs to delete from the word.
 
-*Example: StartMopNoeEnD
-*Solution: StartttopEnD
-*The tools i use for this exercise are:
-*RegEx library
-*ArrayList
-*StringBuffer
+* Example: StartMopNoeEnD
+* Solution: StartttopEnD
+* The tools i use for this exercise are:
+* RegEx library
+* ArrayList
+* StringBuffer
 
 ![alt text](https://github.com/mm528/Java_Project_Strings/blob/main/Example.png)
